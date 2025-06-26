@@ -1,3 +1,5 @@
+package EDADEDS;
+
 import java.util.Scanner;
 
 public class EJ1 {
