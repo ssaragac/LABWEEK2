@@ -10,7 +10,7 @@ public class EJ2_WHILE {
         double totalRecaudado = 0.0;
 
         System.out.print("¿Una ayudita? (sí/no): ");
-        String respuesta = scanner.nextLine().toLowerCase();
+        String respuesta = scanner.nextLine();
 
         while (respuesta.equals("sí") || respuesta.equals("si")) {
             System.out.print("¿Cuánto quieres aportar? ");
@@ -29,7 +29,7 @@ public class EJ2_WHILE {
             }
 
             System.out.print("¿Una ayudita más? (sí/no): ");
-            respuesta = scanner.nextLine().toLowerCase();
+            respuesta = scanner.nextLine();
         }
 
         System.out.println("Te deprimes y te vas para casa.");
