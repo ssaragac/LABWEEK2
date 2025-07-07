@@ -32,9 +32,9 @@ public class EJ2_WHILE {
             respuesta = scanner.nextLine().toLowerCase();
         }
 
-        System.out.println("😢 Te deprimes y te vas para casa.");
-        System.out.println("👥 Personas que ayudaron: " + personasQueAyudaron);
-        System.out.println("💰 Total recaudado: " + totalRecaudado + " euros.");
+        System.out.println("Te deprimes y te vas para casa.");
+        System.out.println("Personas que ayudaron: " + personasQueAyudaron);
+        System.out.println("Total recaudado: " + totalRecaudado + " euros.");
 
         scanner.close();
     }
